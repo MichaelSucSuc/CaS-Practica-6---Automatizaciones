@@ -4,11 +4,11 @@
 
 | Pasada | Fecha ISO | Duración (s) | Total Casos | Aprobados | Fallidos | Tasa Aprobación | Inestabilidad (Flaky) |
 |---|---|---|---|---|---|---|---|
-| **corrida-01** | 2026-10-25 18:12:47 | 13.81s | 12 | 12 | 0 | 100.0% | 0.0% |
-| **corrida-02** | 2026-10-25 18:13:00 | 13.57s | 12 | 12 | 0 | 100.0% | 0.0% |
-| **corrida-03** | 2026-10-25 18:13:15 | 13.98s | 12 | 12 | 0 | 100.0% | 0.0% |
+| **corrida-01** | 2026-10-25 22:48:59 | 18.35s | 12 | 12 | 0 | 100.0% | 0.0% |
+| **corrida-02** | 2026-10-25 22:49:15 | 16.21s | 12 | 12 | 0 | 100.0% | 0.0% |
+| **corrida-03** | 2026-10-25 22:49:30 | 14.28s | 12 | 12 | 0 | 100.0% | 0.0% |
 
 ### Análisis de Repetibilidad y Estabilidad
 * **Tasa de éxito global:** 100% (36/36 ejecuciones exitosas acumuladas).
 * **Inestabilidad observada:** 0% (ningún caso presentó comportamiento intermitente o indeterminista).
-* **Tiempo promedio de ejecución automatizada:** 13.79 segundos.
+* **Tiempo promedio de ejecución automatizada:** 16.28 segundos.
