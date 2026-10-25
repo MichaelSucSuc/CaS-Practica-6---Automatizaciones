@@ -1,0 +1,67 @@
+{
+  "users": {
+    "valid": {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "description": "Usuario estándar con permisos completos"
+    },
+    "locked": {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "description": "Usuario con cuenta bloqueada por políticas del sistema"
+    },
+    "invalid": {
+      "username": "standard_user",
+      "password": "clave_incorrecta",
+      "description": "Credenciales inválidas para prueba negativa"
+    },
+    "empty": {
+      "username": "",
+      "password": "",
+      "description": "Campos de autenticación vacíos"
+    }
+  },
+  "messages": {
+    "loginErrorMismatch": "Username and password do not match",
+    "loginErrorLocked": "Sorry, this user has been locked out",
+    "loginErrorRequiredUsername": "Username is required",
+    "checkoutErrorFirstName": "Error: First Name is required",
+    "checkoutErrorPostalCode": "Error: Postal Code is required",
+    "unauthenticatedDirectAccess": "You can only access '/inventory.html' when you are logged in",
+    "orderConfirmation": "Thank you for your order!"
+  },
+  "checkout": {
+    "valid": {
+      "firstName": "Michael",
+      "lastName": "Suclle",
+      "postalCode": "04001"
+    },
+    "missingFirstName": {
+      "firstName": "",
+      "lastName": "Suclle",
+      "postalCode": "04001"
+    },
+    "missingPostalCode": {
+      "firstName": "Michael",
+      "lastName": "Suclle",
+      "postalCode": ""
+    }
+  },
+  "products": {
+    "backpack": {
+      "id": "sauce-labs-backpack",
+      "name": "Sauce Labs Backpack",
+      "price": 29.99
+    },
+    "bikeLight": {
+      "id": "sauce-labs-bike-light",
+      "name": "Sauce Labs Bike Light",
+      "price": 9.99
+    },
+    "boltTShirt": {
+      "id": "sauce-labs-bolt-t-shirt",
+      "name": "Sauce Labs Bolt T-Shirt",
+      "price": 15.99
+    }
+  }
+}

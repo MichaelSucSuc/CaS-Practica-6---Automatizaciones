@@ -1,0 +1,26 @@
+{
+  "name": "cas-practica-6-automatizaciones",
+  "version": "1.0.0",
+  "description": "Trabajo Parcial: Capítulo 6 - Automatización de Pruebas de Software con Playwright (UNSA)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium --workers=1 --retries=0",
+    "test:headed": "playwright test --project=chromium --headed --workers=1",
+    "corridas:todas": "node scripts/run_corridas.js",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "iso-29119",
+    "saucedemo",
+    "unsa"
+  ],
+  "author": "Michael Benjamin Suclle Suca",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}
